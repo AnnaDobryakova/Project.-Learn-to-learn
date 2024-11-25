@@ -67,10 +67,47 @@
 
 }
 
-.header__main-illustration-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.description{
+  background-color:  #f2f2f2;
+  
+}
+
+.two-columns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  padding: 100px 100px;
+  left: 50px;
+  width: 80%;
+}
+
+.two-columns__brief{
+  color: #2f80ed;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.two-columns__main-text{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.two-columns__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /* и элемента с модификатором вида ключ-значение */
