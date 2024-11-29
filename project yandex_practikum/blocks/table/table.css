@@ -1,0 +1,29 @@
+.table{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.table__cell{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 60px;
+  width: calc(25% - 20px);
+}
+
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}

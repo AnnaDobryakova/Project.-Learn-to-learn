@@ -1,0 +1,27 @@
+.video{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 100px;
+  margin: 0 auto;
+  align-items: center;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  overflow: hidden;
+  z-index: 15;
+  transform: translateY(10%);
+}
+
+.video__iframes{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.video__iframe{
+  width: 515px;
+  height: 316px;
+  margin: 0 10px;
+}
