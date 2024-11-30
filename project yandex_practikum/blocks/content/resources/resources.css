@@ -1,0 +1,27 @@
+.resources{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 217px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.resources__logo-zone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1100px;
+    margin-top: 80px;
+
+}
+
+.resources__link{
+    width: 270px;
+    height: 38px;
+} 
+
+         
